@@ -1,6 +1,9 @@
 # Metadata Demo
 
+Demonstrates how to view, edit, and save metadata in image JPEG, TIFF, RAW, and PNG image files.  
 
+It includes code that preserves as much metadata as possible when re-saving an image as a TIFF or JPEG.  The TiffFile class gives the ability to view and edit tiff image metadata without the need to open the image into memory and demonstrates working with arbitrary TIFF tags by embedding an image into the tiff tag.  Also demonstrates lossless JPEG features to edit metadata within a JPEG without adding lossy compression artifacts.
+		
 
 ## Licensing
 This application as configured, requires a license for DotImage Photo Pro or  DotImage Document Imaging. Optionally the WinDemoHelperMethods class will include additional codecs such as PDF. PDF support will automaticlly enable if you have a license for our PdfReader addon.
