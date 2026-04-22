@@ -3,7 +3,8 @@
 Demonstrates how to view, edit, and save metadata in image JPEG, TIFF, RAW, and PNG image files.  
 
 It includes code that preserves as much metadata as possible when re-saving an image as a TIFF or JPEG.  The TiffFile class gives the ability to view and edit tiff image metadata without the need to open the image into memory and demonstrates working with arbitrary TIFF tags by embedding an image into the tiff tag.  Also demonstrates lossless JPEG features to edit metadata within a JPEG without adding lossy compression artifacts.
-		
+
+This is the C# version. We also have a [VB.NET version](https://github.com/AtalaSupport/DemoGallery_Desktop_MetadataDemo_VB_x64) available.
 
 ## Licensing
 This application as configured, requires a license for DotImage Photo Pro or  DotImage Document Imaging. Optionally the WinDemoHelperMethods class will include additional codecs such as PDF. PDF support will automaticlly enable if you have a license for our PdfReader addon.
@@ -45,6 +46,11 @@ Still, if you wish to use NuGet for the dependencies instead of relying on local
 - Browse for and install Atalasoft.DotImage.Jpeg2000.x64
 - Browse for and install Atalasoft.DotImage.Pdf.x64
     - This will add pdf Encoder as well as AdvancedDocClean
+
+
+## Downloading source
+The sources can be downloaded for [c#](https://github.com/AtalaSupport/DemoGallery_Desktop_MetadataDemo_CS_x64/archive/refs/heads/main.zip) and [VB.NET](https://github.com/AtalaSupport/DemoGallery_Desktop_MetadataDemo_VB_x64/archive/refs/heads/main.zip)
+
 
 ## Cloning
 We recommend the following to ensure you clone with the required submodule
